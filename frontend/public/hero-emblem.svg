@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none">
+  <defs>
+    <linearGradient id="pgrPetal" x1="300" y1="52" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff5266" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ff1f3d" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pgrCore" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#ffd9de" stop-opacity="0.95"/>
+      <stop offset="0.3" stop-color="#ff1f3d" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ff1f3d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="300" cy="300" r="252" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <circle cx="300" cy="300" r="214" stroke="rgba(255,31,61,0.45)" stroke-width="1" stroke-dasharray="1 9"/>
+  <circle cx="300" cy="300" r="168" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <g class="emblem-petals">
+    <path d="M300 52 L334 270 L300 300 L266 270 Z" fill="url(#pgrPetal)" stroke="rgba(255,255,255,0.24)" stroke-width="1"/>
+    <path d="M300 52 L334 270 L300 300 L266 270 Z" fill="url(#pgrPetal)" stroke="rgba(255,255,255,0.24)" stroke-width="1" transform="rotate(45 300 300)"/>
+    <path d="M300 52 L334 270 L300 300 L266 270 Z" fill="url(#pgrPetal)" stroke="rgba(255,255,255,0.24)" stroke-width="1" transform="rotate(90 300 300)"/>
+    <path d="M300 52 L334 270 L300 300 L266 270 Z" fill="url(#pgrPetal)" stroke="rgba(255,255,255,0.24)" stroke-width="1" transform="rotate(135 300 300)"/>
+    <path d="M300 52 L334 270 L300 300 L266 270 Z" fill="url(#pgrPetal)" stroke="rgba(255,255,255,0.24)" stroke-width="1" transform="rotate(180 300 300)"/>
+    <path d="M300 52 L334 270 L300 300 L266 270 Z" fill="url(#pgrPetal)" stroke="rgba(255,255,255,0.24)" stroke-width="1" transform="rotate(225 300 300)"/>
+    <path d="M300 52 L334 270 L300 300 L266 270 Z" fill="url(#pgrPetal)" stroke="rgba(255,255,255,0.24)" stroke-width="1" transform="rotate(270 300 300)"/>
+    <path d="M300 52 L334 270 L300 300 L266 270 Z" fill="url(#pgrPetal)" stroke="rgba(255,255,255,0.24)" stroke-width="1" transform="rotate(315 300 300)"/>
+  </g>
+
+  <path d="M300 152 L312 288 L448 300 L312 312 L300 448 L288 312 L152 300 L288 288 Z" fill="rgba(255,31,61,0.08)" stroke="#ff1f3d" stroke-width="1"/>
+
+  <g stroke="rgba(255,255,255,0.55)" stroke-width="1">
+    <line x1="300" y1="22" x2="300" y2="112"/>
+    <line x1="300" y1="488" x2="300" y2="578"/>
+    <line x1="22" y1="300" x2="112" y2="300"/>
+    <line x1="488" y1="300" x2="578" y2="300"/>
+  </g>
+
+  <circle cx="300" cy="300" r="38" fill="url(#pgrCore)"/>
+  <circle cx="300" cy="300" r="7" fill="#fff"/>
+</svg>
